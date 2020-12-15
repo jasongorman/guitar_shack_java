@@ -1,4 +1,6 @@
-package com.guitarshack;
+package com.guitarshack.sales;
+
+import com.guitarshack.product.Product;
 
 public class ThirtyDayAverageSalesRate implements SalesRate {
     private final RecentSales recentSales;

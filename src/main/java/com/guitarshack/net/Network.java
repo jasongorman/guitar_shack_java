@@ -1,4 +1,4 @@
-package com.guitarshack;
+package com.guitarshack.net;
 
 import java.io.IOException;
 import java.net.http.HttpRequest;

@@ -1,5 +1,8 @@
 package com.guitarshack;
 
+import com.guitarshack.product.Product;
+import com.guitarshack.product.Warehouse;
+
 public class StockMonitor {
     private final Alert alert;
     private final Warehouse warehouse;

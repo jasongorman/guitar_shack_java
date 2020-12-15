@@ -1,4 +1,6 @@
-package com.guitarshack;
+package com.guitarshack.product;
+
+import com.guitarshack.net.Client;
 
 import java.util.HashMap;
 import java.util.Map;

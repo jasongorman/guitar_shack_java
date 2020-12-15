@@ -1,4 +1,7 @@
-package com.guitarshack;
+package com.guitarshack.sales;
+
+import com.guitarshack.net.Client;
+import com.guitarshack.date.Today;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

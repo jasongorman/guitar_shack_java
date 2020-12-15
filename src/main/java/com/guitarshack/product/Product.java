@@ -1,4 +1,4 @@
-package com.guitarshack;
+package com.guitarshack.product;
 
 public class Product {
     private final int stock;

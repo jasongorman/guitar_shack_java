@@ -1,8 +1,12 @@
 package com.guitarshack.integrationtests;
 
 import com.guitarshack.*;
-import com.guitarshack.ProductData;
-import com.guitarshack.SalesData;
+import com.guitarshack.net.RESTClient;
+import com.guitarshack.net.RequestBuilder;
+import com.guitarshack.net.Web;
+import com.guitarshack.product.ProductData;
+import com.guitarshack.sales.SalesData;
+import com.guitarshack.sales.ThirtyDayAverageSalesRate;
 import org.junit.Test;
 
 import java.util.Calendar;
@@ -10,6 +14,13 @@ import java.util.Calendar;
 import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
+
+/*
+
+    It's a good idea to have at least one test that wires together most or all
+    of the implementations of our interfaces to check that we haven't missed anything
+
+ */
 
 public class StockMonitorIntegrationTest {
 

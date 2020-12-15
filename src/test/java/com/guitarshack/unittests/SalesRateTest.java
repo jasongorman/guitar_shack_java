@@ -1,9 +1,10 @@
 package com.guitarshack.unittests;
 
-import com.guitarshack.*;
+import com.guitarshack.product.Product;
+import com.guitarshack.sales.RecentSales;
+import com.guitarshack.sales.SalesRate;
+import com.guitarshack.sales.ThirtyDayAverageSalesRate;
 import org.junit.Test;
-
-import java.util.Arrays;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.mock;

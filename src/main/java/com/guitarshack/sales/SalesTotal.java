@@ -1,4 +1,4 @@
-package com.guitarshack;
+package com.guitarshack.sales;
 
 public class SalesTotal {
     private int total = 0;

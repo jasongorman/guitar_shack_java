@@ -1,6 +1,7 @@
 package com.guitarshack.unittests;
 
 import com.guitarshack.*;
+import com.guitarshack.net.Network;
 
 public class ProductDataUnitTest extends ProductDataTestBase {
 

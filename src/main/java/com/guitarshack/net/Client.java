@@ -1,4 +1,4 @@
-package com.guitarshack;
+package com.guitarshack.net;
 
 import java.util.List;
 import java.util.Map;

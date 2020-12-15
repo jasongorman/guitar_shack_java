@@ -1,6 +1,8 @@
 package com.guitarshack.unittests;
 
 import com.guitarshack.*;
+import com.guitarshack.product.Product;
+import com.guitarshack.product.Warehouse;
 import org.junit.Test;
 
 import static org.mockito.Mockito.*;

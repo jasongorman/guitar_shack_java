@@ -1,4 +1,4 @@
-package com.guitarshack;
+package com.guitarshack.net;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
